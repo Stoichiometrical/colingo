@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/colingo/static/css/main.e2fe6903.css",
+    "main.js": "/colingo/static/js/main.6623079c.js",
+    "index.html": "/colingo/index.html",
+    "main.e2fe6903.css.map": "/colingo/static/css/main.e2fe6903.css.map",
+    "main.6623079c.js.map": "/colingo/static/js/main.6623079c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2fe6903.css",
+    "static/js/main.6623079c.js"
+  ]
+}
