@@ -1,0 +1,46 @@
+.facts{
+    font-size : 100%;
+    background-color: white;
+}
+
+.flag{
+    display: flex;
+   margin-left : 35%;
+    gap:2%;
+
+
+}
+
+.country{
+  font-weight : bold;
+    font-size: 2rem;
+}
+
+.c-facts{
+    /*list-style-type: none;*/
+    padding : 15px;
+}
+
+.fact-item{
+    padding : 10px;
+
+}
+
+.fact-item :first-child{
+    font-weight: bold;
+}
+.facts-sect1{
+    /*flex: 1;*/
+}
+
+.facts-sect2{
+
+}
+
+.f-container{
+    display :flex;
+    justify-content :space-around;
+   margin-left : 10%;
+    margin-right : 10%;
+    flex-flow: row wrap;
+}

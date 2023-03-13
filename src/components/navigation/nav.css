@@ -1,0 +1,45 @@
+/*styling for navigation*/
+.nav{
+    font-size: 100%;
+    box-sizing: border-box;
+    background-color: #003559;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap : 30%;
+}
+
+.name{
+    font-size : 2rem;
+    color : white;
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex:2;
+
+}
+
+.list-item{
+    color : white;
+    font-weight: bold;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}

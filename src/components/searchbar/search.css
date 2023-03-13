@@ -1,0 +1,33 @@
+.search{
+ margin-left : 35%;
+    margin-top : 2%;
+
+
+}
+
+.scontainer{
+  position: relative;
+    /*background-color: pink;*/
+
+}
+
+input{
+ width : 55%;
+    padding: 10px;
+    border-radius: 5px;
+    outline : none;
+    border : 1px solid black;
+}
+
+.input::placeholder{
+
+    text-align: center;
+}
+
+.s-icon{
+    position: absolute;
+    left : 52%;
+    top : 15%;
+    cursor: pointer;
+
+}

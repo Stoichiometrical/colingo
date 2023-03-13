@@ -1,0 +1,118 @@
+import React from "react";
+import { Pie } from "react-chartjs-2";
+
+const data = {
+  labels: ["Section A", "Section B", "Section C"],
+  datasets: [
+    {
+      data: [50, 30, 20],
+      backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+      hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+    },
+  ],
+};
+
+const options = {
+  responsive: true,
+  maintainAspectRatio: false,
+  legend: {
+    position: "right",
+  },
+};
+
+export default function Piechart() {
+  return <Pie data={data} options={options} />;
+};
+
+ PieChartWithColorsAndLegend;
+
+ import "./piechart.css"
+ import { PieChart, Pie, Legend, Tooltip, Cell } from "recharts";
+
+ const data = [
+     { name: "Section A", value: 50 },
+     { name: "Section B", value: 30 },
+     { name: "Section C", value: 20 },
+ ];
+
+ const COLORS = ["#0088FE", "#00C49F", "#FFBB28"];
+
+ export default function Piechart(props) {
+     return(
+         <>
+             <PieChart width={400} height={400}>
+                 <Pie
+                     data={data}
+                     dataKey="value"
+                     nameKey="name"
+                     cx="50%"
+                     cy="50%"
+                     innerRadius={50}
+                     outerRadius={100}
+                     fill="#8884d8"
+                     paddingAngle={5}
+                     label
+                 >
+                     {data.map((entry, index) => (
+                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                     ))}
+                 </Pie>
+                 <Pie
+                     data={[{ value: 100 }]}
+                     cx="50%"
+                     cy="50%"
+                     innerRadius={40}
+                     outerRadius={50}
+                     fill="#f0f0f0"
+                     paddingAngle={0}
+                 />
+                 <Tooltip />
+                 <Legend/>
+             </PieChart>
+         </>
+     )
+ }
+
+    useEffect( (async ()=>{
+             let endpoint = `https://cost-of-living-and-prices.p.rapidapi.com/prices?country_name=Zimbabwe`
+          // let coun
+          //    if(country){
+          //        endpoint = `https://cost-of-living-and-prices.p.rapidapi.com/prices?country_name=${country}`
+          //    }
+             let response =  await fetch(endpoint,header);
+             let dataObject = await response.json();
+             let transport=  dataObject["prices"][44]["usd"]["avg"]
+             let accomodation= dataObject["prices"][0]["usd"]["avg"]
+             let clothing= dataObject["prices"][0]["usd"]["avg"]
+             let food = dataObject["prices"][46]["usd"]["avg"]  + dataObject["prices"][47]["usd"]["avg"]
+             setFood(food)
+             setTransport(transport)
+             setAccomodation(accomodation)
+             setClothing(clothing)
+         console.log(transport)
+
+         })(),[])
+
+            useEffect( ()=>{
+            async function getDetails(){
+                                  let endpoint = `https://cost-of-living-and-prices.p.rapidapi.com/prices?country_name=Zimbabwe`
+
+                               //    if(country){
+                               //        endpoint = `https://cost-of-living-and-prices.p.rapidapi.com/prices?country_name=${country}`
+                               //    }
+                                  let response =  await fetch(endpoint,header);
+                                  let dataObject = await response.json();
+                                  let transport=  dataObject["prices"][44]["usd"]["avg"]
+                                  let accomodation= dataObject["prices"][0]["usd"]["avg"]
+                                  let clothing= dataObject["prices"][0]["usd"]["avg"]
+                                  let food = dataObject["prices"][46]["usd"]["avg"]  + dataObject["prices"][47]["usd"]["avg"]
+                                  setFood(food)
+                                  setTransport(transport)
+                                  setAccomodation(accomodation)
+                                  setClothing(clothing)
+                              console.log(transport)
+
+            } getDetails();},[])
+
+
+

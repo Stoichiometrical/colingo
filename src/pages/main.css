@@ -1,0 +1,417 @@
+.main{
+    background-color :#003559;
+    height:100vh;
+}
+
+
+/*Styling home hero*/
+.main-section{
+    font-size : 100%;
+    display: flex;
+    color: white;
+    margin-top: 4%;
+    box-sizing: border-box;
+    padding : 20px;
+    justify-content : space-between;
+
+}
+
+.mtext-side{
+    display: flex;
+    flex-flow :column wrap;
+    justify-content :space-evenly;
+    box-sizing: border-box;
+    flex : 1.5;
+    margin-left:3.5%;
+}
+
+.mtext-subtext-big{
+    font-size : 2.5rem;
+    font-weight : bold;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 5%;
+}
+
+.mtext-subtext-sm{
+    display: flex;
+    flex-direction :column;
+    box-sizing: border-box;
+
+}
+
+.mtext-subtext-sm1{
+    font-size : 1.2rem;
+    font-weight :300;
+    margin-bottom : 5%;
+}
+
+
+.mtext-subtext-sm2{
+    display: flex;
+    flex-flow :row wrap;
+}
+
+.btn{
+    background-color : #3880D0;
+    padding : 15px;
+    border-radius :15px;
+    font-weight: bold;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color : white;
+    color:#3880D0 ;
+
+}
+.linka:hover{
+    background-color : white;
+    color:#3880D0 ;
+
+}
+
+
+.play-demo{
+    display: flex;
+    width : 30%;
+    gap : 5%;
+}
+.demo-png{
+  margin-right: 3%;
+    cursor: pointer;
+}
+
+.demo-text{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+
+.mimage-side{
+    flex: 1.5;
+}
+
+.home-effect{
+    width : 42vw;
+    height: 100%;
+}
+
+/*Styling the about us page*/
+.contact{
+    background-color : #EEEEEE;
+    height : 100vh;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.contact-sections{
+    display : flex;
+    margin : 4%;
+}
+
+.get-in-touch{
+    flex : 1;
+}
+
+.form-side{
+    flex : 2;
+
+}
+.chead-text{
+    font-weight : bold;
+}
+
+.csection-text{
+    display : flex;
+    margin-bottom: 5%;
+}
+
+.cicon{
+   display: flex;
+    align-items: center;
+}
+
+.icon-text{
+    display: flex;
+    flex-flow: column wrap;
+    padding : 10px;
+}
+
+.itext{
+  font-size : 1.5rem;
+}
+
+.itext:first-child{
+    font-weight : bold;
+}
+
+.soc-icons{
+    display: flex;
+    gap : 5%;
+}
+
+.sicon{
+    width : 50px;
+    height : 50px;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+/*Styling the input form*/
+
+.form{
+   height: 100%;
+    background-color: #C3C3C3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-right:10px;
+}
+
+.fsect{
+ display: flex;
+    flex-flow: row wrap;
+    margin-bottom : 2%;
+}
+
+.fgroup{
+  display: flex;
+    flex-flow: column wrap;
+    margin-left : 4%;
+    flex :1;
+}
+
+.label{
+   font-weight :bold;
+    padding : 15px;
+
+}
+
+.input{
+    border-radius : 5px;
+    outline: none;
+    border :none;
+    height : 40px;
+    width:95%;
+}
+
+.textarea{
+    border-radius : 5px;
+    outline: none;
+    border :none;
+    height: 100px;
+
+}
+
+/*Styling services page*/
+.services{
+    background-color : #EEEEEE;
+    height : 100vh;
+}
+
+/*Stying compare page*/
+.services-comp{
+    background-color : #EEEEEE;
+    font-size : 100%;
+    height : 100vh;
+}
+
+.main-text{
+    font-weight : bold;
+    font-size : 1.5rem;
+    margin-left : 2%;
+    margin-top: 4%;
+    padding: 15px 15px 15px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.s-subtext{
+  margin-bottom : 4%;
+    margin-left : 2%;
+}
+
+.compares{
+ display: flex;
+    align-items: center;
+    margin-left : 2%;
+    margin-right : 2%;
+}
+
+.f-input{
+    height: 25px;
+}
+
+.f-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column wrap;
+
+}
+
+.first-text{
+    font-family: 'Inter', sans-serif;
+    padding : 10px;
+}
+
+.second-text{
+    font-weight: bold;
+    font-size : 2rem;
+}
+
+.third-text{
+  padding : 10px;
+}
+
+.btns{
+    display : flex;
+    gap : 2%;
+    margin-left : 30%;
+}
+
+/*Styling the about us page*/
+
+.about-us{
+    background-color : #EEEEEE;
+    height : 100%;
+    box-sizing: border-box;
+
+}
+
+.about-cont{
+    position : relative;
+    margin-top: 5%;
+    height: 100vh;
+}
+.ano-bio{
+    background-color : white;
+    display : flex;
+    /*flex-flow : row wrap;*/
+    width : 65%;
+    height : 70vh;
+    margin-left : 20%;
+    box-sizing: border-box;
+
+    position: absolute;
+}
+
+.ano-side{
+    margin: 2%;
+}
+.ano{
+  width : 250px;
+    height : 250px;
+    object-fit: cover;
+    border-radius : 50%;
+    margin: 10% 2% 2%;
+}
+
+.text-side{
+    margin : 2%;
+}
+
+.a-text{
+    margin-bottom : 4%;
+}
+.mission{
+    background-color : #C3C3C3;
+    position: absolute;
+    top : 50%;
+    width : 100%;
+    height : 80vh;
+
+}
+
+.mission-sub{
+
+    margin-top : 14%;
+    display: flex;
+    margin-left : 10%;
+    margin-right : 10%;
+}
+
+
+.mission1{
+    font-family : 'Inter',sans-serif;
+    border-right: 4px solid black;
+    padding: 10px;
+}
+
+.mission2{
+    margin-left: 5%;
+    font-family : 'Inter',sans-serif;
+}
+
+.blue-area{
+    width: 40%;
+    height: 100%;
+    background-color :#003559;
+    position: absolute;
+}
+
+.our-services{
+    top : 12%;
+    margin-left : 10%;
+    margin-right : 10%;
+    width :85%;
+    background-color: #C3C3C3;
+    height : 82%;
+    position: absolute;
+    display: flex;
+
+
+}
+
+.c2{
+    position : relative;
+    margin-top: 12%;
+    height: 80vh;
+    background-color: #EEEEEE;
+}
+
+.o-services1{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 20px;
+    margin-left: 10%;
+    font-family: 'Inter', sans-serif;
+}
+
+.o-services2{
+    background-color :white;
+    height: 90%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right : 4%;
+    margin-top: 2%;
+    display : flex;
+    flex-direction: column;
+    padding : 2%;
+    gap: 5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.circle{
+    padding : 15px;
+    border-radius : 50%;
+    background-color : #D9D9D9;
+    font-weight : bold;
+    font-size : 2.5rem;
+    margin-left : 20%;
+    object-fit :cover;
+    width : 25%;
+    height : 20%;
+    display: flex;
+    align-items :center;
+    justify-content : center;
+}
+
+
+.o-serv-text{
+    margin-top : 2%;
+
+}

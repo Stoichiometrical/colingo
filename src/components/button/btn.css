@@ -1,0 +1,17 @@
+.btn-def{
+    padding: 15px 25px;
+    background-color: #003559;
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin : 2%;
+    cursor:pointer;
+}
+
+.btn-def:hover{
+    background-color: white;
+    color:#003559;
+    border : 1px solid #003559;
+}
